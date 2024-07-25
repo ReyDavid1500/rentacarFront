@@ -24,6 +24,9 @@ export const StyledInput = styled.select`
   margin-right: 2px;
   padding-left: 15px;
   border: 2px solid #002eff;
+  &:active {
+    background-color: white;
+  }
 `;
 export const Span = styled.span`
   color: red;
